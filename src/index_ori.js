@@ -17,11 +17,11 @@ function calculate(operator, number1, number2) {
 }
 
 function play() {
- var number1 = random (1, 20);
+ var total = random (1, 100);
  var operator = operatorOption[random(0, 1)];
- var number2 = random(1, number1 - 1);
+ var number2 = random(1, total - 1);
 
- eNumber1.value = number1;
+ eTotal.value = total;
  eNumber2.value = number2;
  eOperator.innerHTML = operator;
 
@@ -35,13 +35,13 @@ function evaluate() {
     );
 
 if (answer === parseInt(eTotal.value)) {
-    alert("Jawaban kamu benar" );
+    alert("Jawaban Kamu " + answer + " hasilnya bener lho" );
 }
 else{
-    alert ("Jawaban yang benar adalah " + answer + " Jawaban kamu kurang tepat" );
+    alert ("Jawaban Kamu " + answer + " hasilnya kurang tepat" );
 }
 
-eTotal.value = "";
+eNumber1.value = "";
 play();
 
 }
