@@ -17,7 +17,7 @@ function calculate(operator, number1, number2) {
 }
 
 function play() {
- var total = random (1, 100);
+ var total = random (1,50);
  var operator = operatorOption[random(0, 1)];
  var number2 = random(1, total - 1);
 
