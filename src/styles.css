@@ -1,9 +1,10 @@
+
 body {font-family: sans-serif;}
-h1 { margin-bottom: 50px; color: rgb(187, 65, 65); }
+h1 { margin-bottom: 50px; color: rgb(187, 65, 65);}
 .no-border { border: none; }
 .mr-1 { margin-right: 0.7 rem; }
-.row { margin-bottom: 1rem;     }
-.align-center {text-align: center; margin-top: 100px;}
+.row { margin-bottom: 1rem;}
+.center-align {text-align: center; margin-top: 10px;}
 
 .input-disabled {
     font-weight: bold;
@@ -21,6 +22,7 @@ h1 { margin-bottom: 50px; color: rgb(187, 65, 65); }
     border-radius: 0.2rem;
     letter-spacing: 2px;
     cursor: pointer;
+    margin-top: 100px;
 }
 
 #submit:hover {opacity: 0.8;}
